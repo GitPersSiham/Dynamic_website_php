@@ -1,0 +1,213 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+ /* padding-top:66px;*/
+  color :#222;
+
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.4;
+   /* overflow-x: hidden;*/
+  
+       position: relative;
+    overflow-x: hidden;
+}
+
+.nav
+{
+ margin-bottom: 40px;   
+ display:inline-block;
+align-items:center;
+justify-content: center;
+color: deeppink;
+margin-top: 20px;
+ font-size: 20px;   
+  
+}
+
+
+.beauty{
+    
+
+min-height: 90vh;
+background: url('../images/x-sLGYaQ_stMM-unsplash.jpg') center/cover no-repeat;
+display:flex;
+align-items:center;
+justify-content: center; 
+background-size: cover;
+margin-top: 50px !important;    
+}
+
+.banner
+{ 
+display: inline-block;
+background: rgba(0,0,0,0.2);
+color: white;
+padding:  10px;
+text-align: center;
+text-transform: capitalize;
+letter-spacing: 3px;
+width: 50% ;  
+height: 100%;
+    margin-top: 100px;
+}
+
+.banner h1{
+font-size:2.5rem;  
+    
+    
+}
+
+
+/* navbar*/
+
+ul li a{
+
+    color: black;
+    text-decoration: none;
+ 
+    
+}
+
+li a:hover {
+  text-decoration: none;
+    color:hotpink;
+    
+}
+
+.thumbnail {
+ 
+max-width: 100%;
+background: none;
+border: none;
+  
+}
+.thumbnail .caption {
+   
+text-align: center !important;
+
+
+}
+
+.price
+{
+margin-left: 10px;
+font-weight: bold;
+text-align: center;
+}
+
+
+.fashion{
+    
+
+min-height: 90vh;
+background: url('../images/Chanel-FW20-fb.jpg') center/cover no-repeat;
+display:flex;
+align-items:center;
+justify-content: center; 
+    position: relative;
+
+
+
+}
+
+/* admin */
+.logo
+{
+display:flex;
+align-items:center;
+justify-content: center; 
+margin-top: 50px;
+    
+}
+ .admin
+{
+ background:none;
+ padding:50px;
+ border-radius: 10px;
+ margin-top: 50px;
+    
+    
+}
+a {
+
+    text-decoration: none;
+    color: hotpink !important;
+}
+
+form
+{
+  padding:20px;
+margin-bottom: 20px;
+    
+}
+
+
+ .view
+{
+ background:#F5F5F5;
+ padding:20px;
+ border-radius: 10px;
+ margin-top: 50px;
+    
+    
+}
+
+.btn-default 
+{
+    margin-bottom: 9px;
+}
+
+.help-inline
+{
+    
+  color: red !important;  
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer
+{
+	background:black ;
+	padding: 100px 0 40px;
+    
+}
+
+footer .glyphicon
+{
+	font-size: 25px;
+	margin: 20px;
+	color: white;
+	height: 30px;
+	
+}
+
+
+
+footer .glyphicon:hover
+{
+	
+	font-size: 27px;
+}
+
+footer h5
+{
+	color: white;
+	font-weight: normal;
+}
