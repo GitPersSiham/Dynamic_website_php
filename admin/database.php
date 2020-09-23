@@ -3,10 +3,10 @@
 class Database 
 {
     
-private static $dbHost = "localhost";
-private static $dbName = "chanel";
-private static $dbUser = "root";
-private static $dbUserPassword = "Cmde4AM0JdKZ7nrM";
+private static $dbHost = "";
+private static $dbName = "";
+private static $dbUser = "";
+private static $dbUserPassword = " ";
 private static $connection = null;
 
 public static function connect()
