@@ -2,13 +2,6 @@
 
 require "database.php";
 
-
-
-
-
-
-
-
 ?>
 
 <!DOCTYPE html>
@@ -82,14 +75,7 @@ require "database.php";
                 <a class="btn btn-default" href="index.php"><span class="glyphicon glyphicon-arrow-left"></span> Retour</a>
               
               </div>
-        
-          
       </div>
-    </div> 
- 
-    
-    
-    
-    
+    </div>
 </body>
 </html>
